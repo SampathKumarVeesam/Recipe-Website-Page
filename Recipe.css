@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size:auto;
+    background-position: center;
+    height: 100px;
+    /* color: white; */
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.img{
+    background-image: url(https://images.adsttc.com/media/images/5e4c/1025/6ee6/7e0b/9d00/0877/large_jpg/feature_-_Main_hall_1.jpg?1582043123);
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#recipes {
+    padding: 2px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-body h5 {
+    text-align: center;
+    color: #ff0000;
+    background-color: rgb(48, 77, 156);
+    border-radius: 2px;
+}
+.card-body h5:hover{
+    color: #ececf5;
+}
+
+.card-body p {
+    font-size: 16px;
+}
+
+#categories {
+    padding: 2px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #e01212;
+}
+
+ul li a:hover {
+    color: #dc0e0e;
+}
+
+#contact {
+    padding: 2px;
+}
+
+form {
+    width: 900px;
+    margin: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    clear: both;
+}
+.container3{
+    font-size: medium;
+    font-style: italic;
+    padding: 5px;
+    color: bisque;
+}
+
+.social-links {
+    margin: 10px;
+}
+
+.social-links a:hover{
+    margin: 0 10px;
+    color: rgb(146, 46, 46);
+}
